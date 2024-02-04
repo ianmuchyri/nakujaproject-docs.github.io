@@ -1,0 +1,40 @@
+copyright: Copyright (c) Nakuja Project
+site_name: Nakuja Project Docs
+theme:
+  name: material
+  favicon: img/favicon.ico
+  palette:
+     # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Overview: index.md
+  - Airframe:
+      - N1: airframe/n1.md
+      - N2: airframe/n2.md
+      - N3: airframe/n3.md
+  - Telemetry:
+      - N1: telemetry/n1.md
+      - N2: telemetry/n2.md
+      - N3: telemetry/n3.md
+  - Recovery: recovery/n3.md
+  - Propulsion:
+      - N1: propulsion/n1.md
+      - N2: propulsion/n2.md
+      - N3: propulsion/n3.md
+  - Flight control:
+      - N2: flight-control/n2.md
+
+
